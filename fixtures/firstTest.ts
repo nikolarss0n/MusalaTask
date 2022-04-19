@@ -4,11 +4,8 @@ import { ClientFunction, RequestLogger, Selector } from 'testcafe';
 import { dataEmails } from '././data/data';
 import { environment } from '././../envirnment';
 import ContactUsPage from './pom/contactUsPage';
-import CompanyPage from './pom/companyPage';
-
 
 const contactUsPage = new ContactUsPage();
-const companyPage = new CompanyPage();
 
 fixture`Fixture`
     .page`${environment.url}`
