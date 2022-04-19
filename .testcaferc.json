@@ -1,0 +1,13 @@
+{
+    "takeScreenshotsOnFails": true,
+    "quarantineMode": false,
+    "disableMultipleWindows": true,
+    "speed": 1,
+    "debugOnFail": false,
+    "disablePageCaching": false,
+    "skipJsErrors": true,
+      "selectorTimeout": 20000,
+    "assertionTimeout": 20000,
+    "pageLoadTimeout": 20000,
+    "color": true
+}
